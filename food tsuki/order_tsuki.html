@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+          font-family:"Quicksand";
+      }
+      header {
+ background: black;
+ color: white;
+ height: 100px;
+}
+header {
+ height: 40px;
+ background: black;
+}
+nav {
+ display: inline;
+ clear: both;
+ float: right;
+ font-size:10px ;
+}
+ img{
+ border-radius:30px;
+ height: 100%;
+ padding: 0 10px 10px;
+
+}
+ ul{
+    padding-right: 20px;
+    display: inline;
+    float:right;
+   align-items:center ; 
+}
+nav li{
+    list-style: none;
+    display: inline-block;
+}
+nav a{
+    color: rgb(248, 244, 244);
+    text-decoration: none;
+    float: left;
+    font-size: larger;
+    margin: 1px 0px 1px 10px;
+    font-weight:600; 
+}
+nav a:hover{
+    border-bottom: 2px solid rgb(255, 220, 24);
+}
+header.container {
+   justify-content: center;
+   align-items: center;
+   height: 80px; 
+}
+header.container h1 { 
+  justify-content: center;
+  margin-left: 40px;
+  font-size: 200px;
+ }
+main{
+ height:900px;
+ background: url(fd0d74b8f6378ffee47153aebbb8bf28.jpg);
+ }
+form {
+  width: 500px;
+  justify-content: center;
+  margin: auto;
+  background:black;
+  padding: 15PX 0PX 25PX ;
+  border-radius: 50px;
+}
+h1{
+  display: flex;
+  justify-content: center;
+  margin:5px 25px;
+  font-size: 60px;
+}
+h3{
+  color: white;
+  margin:0px 50px ;
+  font-size: 30px;
+}
+input{
+  width: 450px;
+  height: 80px;
+  margin:20px 15px 20px ;
+  font-size: 30px;
+  border-radius: 20px;
+ }
+select{
+  width: 450px;
+  height: 80px;
+  padding: 0px 220px 0px;
+  margin:20px 20px ;
+  font-size: 30px;
+  border-radius: 20px;
+}
+button { 
+  font-size: 30px ;
+  margin-left: 150px;
+  color:black;
+  border: 10px solid rgba(249, 249, 249, 0.197);
+  background: gray ;
+  border-radius: 20px;
+  padding: 10px 10px 10px;
+ }
+footer p { 
+  background:rgb(92, 91, 91);
+  text-align: center;
+  color:  white;
+  height: 30px;
+  padding: 10px 10px;
+  font-weight:600; 
+}
+</style>
+</head>
+<body>
+    <!-- header start -->
+ <header> 
+    <img src="food_tsuki_logo.png" alt=" food tsuki"></img>
+    <nav >
+        <ul >
+            <li> <a href="tsuki.html"> Home</a></li>
+            <li><a href="tsuki.html">About</a></li>
+            <li><a href="tsuki.html">Dishes</a></li>
+            <li><a href="order_tsuki.html">Order Now</a></li>
+            <li><a href=" tsuki.html">Contact</a></li>
+        </ul>
+    </nav>
+   
+</header>
+<!-- header end -->
+<main>
+    <h1 style="color: rgb(248, 209, 34);">Order ONLINE </h1>
+    <form method="get">
+        <h3>Your Name</h3>
+    <input type="text"name="Your Name"placeholder="enter your full name"required>
+   <br>
+   <h3>Your Email</h3>
+    <input type="text"name="Your Email"placeholder="enter your email"required>
+   <br>
+   <h3>Your Phone</h3>
+
+    <input type="text"name="Your Phone "placeholder="enter your phone number"required>
+     <br>   
+     <h3> Location</h3>
+
+  <select name="location" >
+     <option value="street">street</option>
+     <option value="Baba Ali">Baba Ali</option>
+     <option value="Riyadh Al-Fath ">Riyadh Al-Fath</option>
+     <option value="Boushaki Street ">Boushaki Street</option>
+     <option value=" sayidi Abdallah">Sayidi Abdallah</option>
+     <option value="al-kasaba">Al-kasaba</option>
+ </select>
+<button type="submit">Order Now</button>
+</form>
+</main>
+    <footer>
+    <p>copyringht &copy; 2023 All right reserved /Mode by:  Ikram Raouam </p>
+</footer>
+</body>
+</html>
